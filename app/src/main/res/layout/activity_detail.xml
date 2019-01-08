@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal"
+    android:padding="16dp">
+
+
+    <ImageView
+        android:id="@+id/img_view"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:layout_marginTop="20dp"
+        android:background="@color/colorPrimary"/>
+    <TextView
+        android:id="@+id/txt_detail_judul"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Ini Judul"
+        android:textSize="25sp"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:id="@+id/txt_detail_ayat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:text="Ini Ayat"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:id="@+id/txt_detail_arti"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="12sp"
+        android:layout_marginTop="10dp"
+        android:text="ini Arti"
+        android:layout_gravity="center"/>
+
+
+
+</LinearLayout>
